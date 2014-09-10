@@ -15,7 +15,7 @@ class KeywordPatchSpec extends ObjectBehavior
 
     function its_priority_is_50()
     {
-        $this->getPriority()->shouldReturn(50);
+        $this->getPriority()->shouldReturn(49);
     }
 
     /**
